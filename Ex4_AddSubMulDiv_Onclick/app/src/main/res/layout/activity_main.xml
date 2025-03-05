@@ -25,7 +25,7 @@
             android:id="@+id/edtSo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mời nhập một con số ở đây"
+            android:hint="Mời nhập một con số ở đây"/>
 </LinearLayout>
 <LinearLayout
         android:layout_width="match_parent"
@@ -58,25 +58,29 @@
             android:padding="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+"/>
+            android:text="+"
+            android:onClick="XuLyCong" />
         <Button
             android:id="@+id/Tru"
             android:padding="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-"/>
+            android:text="-"
+            android:onClick="XuLyTru"/>
         <Button
             android:id="@+id/Nhan"
             android:padding="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            androi android:text="*"/>
+            androi android:text="*"
+            android:onClick="XuLyNhan"/>
         <Button
             android:id="@+id/Chia"
             android:padding="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            androi android:text="/"/>
+            androi android:text="/"
+            android:onClick="XuLyChía"/>
 </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -96,6 +100,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nơi hiện kết quả"
-            android:enabled="false"
+            android:enabled="false"/>
     </LinearLayout>
 </LinearLayout>

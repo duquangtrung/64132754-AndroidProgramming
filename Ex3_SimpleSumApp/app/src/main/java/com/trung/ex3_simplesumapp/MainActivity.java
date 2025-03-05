@@ -30,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
         int tong= so_A + so_B;
         String strTong = String.valueDf(Tong);
         editTextKetQua.setText(strTong);
-        
+
     }
 }
