@@ -7,37 +7,45 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:padding="5dp"
+        android:orientation="horizontal"
         android:layout_marginTop="15dp"
-        android:layout_height="50dp"
+        android:layout_height="50dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Số thứ nhất"
             android:textSize="18dp"
-            android:textColor="@color/cardview_light_background"/>
+            android:textColor="#673AB7"/>
         <EditText
+            android:id="@+id/edtSo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mời nhập một số ở đây"/>
+            android:hint="Mời nhập một con số ở đây"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:padding="5dp"
         android:layout_marginTop="15dp"
         android:layout_height="50dp">
-            <TextView
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Số thứ nhất"
+            android:text="Số thứ hai"
             android:textSize="18dp"
-            android:textColor="@color/cardview_light_background"/>
-                <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Mời nhập một số ở đây"/>
+            android:textColor="#673AB7"/>
+        <EditText
+            android:id="@+id/edtSo2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mời nhập một con số ở đây"
+
     </LinearLayout>
 
 </LinearLayout>
