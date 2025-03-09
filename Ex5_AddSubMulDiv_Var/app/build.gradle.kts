@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.trung.ex7_intentlogin"
+    namespace = "com.trung.ex5_addsubmuldiv_var"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.trung.ex7_intentlogin"
+        applicationId = "com.trung.ex5_addsubmuldiv_var"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -29,9 +29,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
@@ -40,9 +37,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.annotation)
-    implementation(libs.lifecycle.livedata.ktx)
-    implementation(libs.lifecycle.viewmodel.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
