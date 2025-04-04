@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            and android:text="Số thứ hai"
+            android:text="Số thứ hai"
             android:textSize="18dp"
             android:textColor="#673AB7"/>
         <EditText
@@ -46,42 +46,50 @@
             android:layout_height="wrap_content"
             android:hint="Mời nhập một con số ở đây"
 </LinearLayout>
-<LinearLayout
+
+    <LinearLayout
+        androi
         android:layout_width="match_parent"
-        android:padding="5dp"
-        android:orientation="horizontal"
+        android:layout_height="50dp"
         android:layout_marginTop="15dp"
-        androi android:gravity="center_horizontal"
-        android:layout_height="50dp">
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
         <Button
             android:id="@+id/edtCong"
-            android:padding="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+"
-            android:onClick="XuLyCong" />
+            android:onClick="XuLyCong"
+            android:padding="2dp"
+            android:text="+" />
+
         <Button
             android:id="@+id/Tru"
-            android:padding="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-"
-            android:onClick="XuLyTru"/>
+            android:onClick="XuLyTru"
+            android:padding="2dp"
+            android:text="-" />
+
         <Button
             android:id="@+id/Nhan"
-            android:padding="2dp"
+            androi
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            androi android:text="*"
-            android:onClick="XuLyNhan"/>
+            android:onClick="XuLyNhan"
+            android:padding="2dp"
+            android:text="*" />
+
         <Button
             android:id="@+id/Chia"
-            android:padding="2dp"
+            androi
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            androi android:text="/"
-            android:onClick="XuLyChía"/>
-</LinearLayout>
+            android:onClick="XuLyChía"
+            android:padding="2dp"
+            android:text="/" />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:padding="5dp"
