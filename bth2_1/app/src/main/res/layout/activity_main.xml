@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/edtB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -49,13 +49,14 @@
         tools:layout_editor_absoluteY="137dp" />
 
     <Button
-        android:id="@+id/btnTinhTong"
+        android:id="@+id/btnCong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="XuLiCong"
+        android:layout_marginStart="132dp"
+        android:onClick="XuLyCong"
         android:text="Tính Tổng"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="223dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -67,7 +68,7 @@
         tools:layout_editor_absoluteY="324dp" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/edtKQ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
