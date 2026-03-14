@@ -6,13 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_gravity="center|top"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/nutSO1"
         android:text="NÚT SÓ 1"
         android:textSize="20dp"
+        android:textColor="#FFE838"
+        android:background="@color/white"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
 
 </LinearLayout>
