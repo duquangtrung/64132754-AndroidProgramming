@@ -16,19 +16,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void XuLyCong( View view) {
+    public void XuLyCong(View view) {
        EditText editTextSoA = findViewById(R.id.edtA);
        EditText editTextSoB = findViewById(R.id.edtB);
        EditText editTextKQ = findViewById(R.id.edtKQ);
     }
-           String strA= editTextSoA.getText().toString();
+        String strA= editTextSoA.getText().toString();
         String strB= editTextSoB.getText().toString();
         int so_A= Integer.parseInt(strA);
         int so_B= Integer.parseInt(strB);
 
        int tong=  so_A + so_B;
        String strTong = String.valueOf(tong);
-       editTextKetQua.setText(strTong); 
+       
+       editTextKetQua.setText(strTong);
 
 
 }
