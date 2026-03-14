@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
        int tong=  so_A + so_B;
        String strTong = String.valueOf(tong);
-       
+
        editTextKetQua.setText(strTong);
 
 
