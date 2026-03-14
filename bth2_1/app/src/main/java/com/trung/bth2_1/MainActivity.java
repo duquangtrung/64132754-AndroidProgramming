@@ -21,5 +21,7 @@ public class MainActivity extends AppCompatActivity {
        EditText editTextSoB = findViewById(R.id.edtB);
        EditText editTextKQ = findViewById(R.id.edtKQ);
     }
+           String stRA= editTextSoA.getText().toString();
+        String strB= editTextSoB.getText().toString();
 
 }
