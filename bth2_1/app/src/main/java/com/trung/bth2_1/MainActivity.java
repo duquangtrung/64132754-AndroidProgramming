@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         int so_A= Integer.parseInt(strA);
         int so_B= Integer.parseInt(strB);
 
+       int tong=  so_A + so_B;
+       String strTong = String.valueOf(tong);
+       editTextKetQua.setText(strTong); 
+
+
 }
