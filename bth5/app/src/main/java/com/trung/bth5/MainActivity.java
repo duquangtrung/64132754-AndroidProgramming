@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    void xulicong(View v) {
+    public xulicong(View v) {
 
         String soThu1 = editTextSo1.getText().toString();
         String soThu2 = editTextSo2.getText().toString();
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    void xulitru( View v) {
+    public xulitru( View v) {
 
         String soThu1 = editTextSo1.getText().toString();
         String soThu2 = editTextSo2.getText().toString();
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    void xulinhan( View v){
+    public xulinhan( View v){
 
         String soThu1 = editTextSo1.getText().toString();
         String soThu2 = editTextSo2.getText().toString();
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    void xulichia(View v) {
+    public xulichia(View v) {
 
         String soThu1 = editTextSo1.getText().toString();
         String soThu2 = editTextSo2.getText().toString();
