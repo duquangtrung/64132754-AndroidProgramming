@@ -60,25 +60,29 @@
             android:layout_margin="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+"/>
+            android:text="+"
+            android:onClick="xulicong"/>
         <Button
             android:id="@+id/btnTru"
             android:layout_margin="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-"/>
+            android:text="-"
+            android:onClick="xulitru"/>
         <Button
             android:id="@+id/btnNhan"
             android:layout_margin="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="*"/>
+            android:text="*"
+            android:onClick="xulinhan"/>
         <Button
             android:id="@+id/btnChia"
             android:layout_margin="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="/"/>
+            android:text="/"
+            android:onClick="xulichia"/>
 
     </LinearLayout>
     <LinearLayout
