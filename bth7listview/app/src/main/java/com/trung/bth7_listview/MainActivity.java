@@ -15,6 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    ArrayList<String> dsTenTinhThanhVN;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        ArrayList<String> dsTenTinhThanhVN;
+
         dsTenTinhThanhVN = new ArrayList<String>();
 
         dsTenTinhThanhVN.add("Hà Nôi");
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     AdapterView.OnItemClickListener BoLangNgevaXL = new AdapterView<.OnItemClickListener()> {
         @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            String strTenTinhChon= dsTenTinhThanhVN.get(i);
             Toast.makeText(MainActivity.this,"Bạn vừa chọn:" +String.valueOf(i), Toast.LENGTH_LONG).show();
         }
     }
