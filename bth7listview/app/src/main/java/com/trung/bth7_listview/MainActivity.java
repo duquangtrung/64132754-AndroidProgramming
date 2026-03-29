@@ -1,8 +1,10 @@
 package com.trung.bth7_listview;
 
 import android.os.Bundle;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -38,4 +40,11 @@ public class MainActivity extends AppCompatActivity {
         lvTenTinhThanh.setAdapter(adapterTinhThanh);
 
     }
+    AdapterView.OnItemClickListener BoLangNgevaXL = new AdapterView<.OnItemClickListener()> {
+        @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            Toast.makeText(MainActivity.this,"Bạn vừa chọn:" +String.valueOf(i), Toast.LENGTH_LONG).show();
+        }
+    }
+
 }
