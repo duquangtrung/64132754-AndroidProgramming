@@ -6,25 +6,25 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/txtMain"
+        android:id="@+id/txtSub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MÀN HÌNH TRANG CHỦ"
-        android:textSize="22sp"
+        android:text="BẠN ĐANG Ở MÀN HÌNH THỨ 2"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/btnNext"
+        app:layout_constraintBottom_toTopOf="@+id/btnBack"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_bias="0.4"/>
 
     <Button
-        android:id="@+id/btnNext"
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SANG MÀN HÌNH KHÁC"
-        android:onClick="goToScreen2"
-        app:layout_constraintTop_toBottomOf="@id/txtMain"
+        android:text="QUAY LẠI TRANG CHỦ"
+        android:onClick="goBackMain"
+        app:layout_constraintTop_toBottomOf="@id/txtSub"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
