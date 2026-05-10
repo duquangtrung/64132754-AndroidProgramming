@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#000"
+    android:padding="1dp">
+
+    <!-- Khung ngoài -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Ảnh -->
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Ảnh đại diện"
+            android:gravity="center"
+            android:background="#DDDDDD"/>
+
+        <!-- Bên phải -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Tên -->
+            <TextView
+                android:id="@+id/txtTen"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Tên bài thuốc"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:background="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <!-- Đường kẻ -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <!-- Thời gian -->
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Thời gian"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="10dp"
+                android:background="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
